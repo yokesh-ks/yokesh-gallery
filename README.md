@@ -1,4 +1,4 @@
-# Infinite Canvas
+# Yokesh Canvas
 
 _An infinite 3D canvas built with React Three Fiber for exploring and displaying media in a seamless, immersive space._
 
