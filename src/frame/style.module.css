@@ -11,9 +11,7 @@
   grid-template-columns: auto auto auto auto 1fr;
   grid-template-areas:
     "title title credits ..."
-    "back archive github ..."
-    "tags tags tags tags"
-    "sponsor sponsor sponsor sponsor";
+    "back archive github ...";
   color: #fff;
   mix-blend-mode: difference;
   font-family: "DM Sans", sans-serif;
@@ -56,18 +54,6 @@
   grid-area: credits;
 }
 
-.frame__tags {
-  grid-area: tags;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.frame__tags a {
-  color: #fff;
-  mix-blend-mode: difference;
-}
-
 @media screen and (min-width: 53em) {
   .frame {
     padding: var(--page-padding, 1.5rem);
@@ -82,18 +68,12 @@
     align-content: space-between;
     grid-template-areas:
       "back github archive ... credits"
-      "title title title title title"
-      "tags tags tags tags sponsor";
+      "title title title title title";
   }
 
   .frame__title {
     justify-self: center;
     font-size: clamp(2rem, 5vw, 3rem);
-  }
-
-  .frame__tags {
-    align-self: end;
-    gap: 2rem;
   }
 
   .frame__credits {

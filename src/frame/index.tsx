@@ -17,13 +17,6 @@ export function Frame() {
         <span>By </span>
         <a href="https://www.edoardolunardi.dev/">Edoardo Lunardi</a>
       </div>
-      <nav className={styles.frame__tags}>
-        <a href="https://tympanus.net/codrops/demos/?tag=scroll">#scroll</a>
-        <a href="https://tympanus.net/codrops/demos/?tag=infinite">#inifinite</a>
-        <a href="https://tympanus.net/codrops/demos/?tag=draggable">#draggable</a>
-        <a href="https://tympanus.net/codrops/demos/?tag=three-js">#three.js</a>
-        <a href="https://tympanus.net/codrops/demos/?tag=webgl">#webgl</a>
-      </nav>
     </header>
   );
 }
